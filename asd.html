@@ -1,3 +1,10 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>doctorone</title>
+</head>
+
 <style>
 
 /* UI Object */
@@ -11,7 +18,7 @@ body{_text-align:center}
 .aside{float:right;width:250px;height:480px}
 #footer{width:100%}
 
-/* Layout Color - ½ÇÁ¦ ¼­ºñ½º Àû¿ë ÈÄ ¾Æ·¡ ÄÚµå´Â »èÁ¦ ÇÏ¼¼¿ä */
+/* Layout Color - ì‹¤ì œ ì„œë¹„ìŠ¤ ì ìš© í›„ ì•„ë˜ ì½”ë“œëŠ” ì‚­ì œ í•˜ì„¸ìš” */
 div{margin:0 0 10px;padding:10px 0;color:#2d2c2d;font-family:Tahoma;font-size:14px;font-weight:bold}
 #wrap{_width /**/:620px;padding:10px;border:1px solid #bdbdbd;background:#f7f7f7}
 #header{width:auto;margin-top:10px;padding:10px}
@@ -25,17 +32,17 @@ div{margin:0 0 10px;padding:10px 0;color:#2d2c2d;font-family:Tahoma;font-size:14
 
 <!--ui object -->
 <div id="wrap">
-<p>ÇÑÀÌÀ½</p>
+<p>í•œì´ìŒ</p>
 <!--header -->
 <div id="header">
-<p>IoT±â¹İ µå·ĞÀ» ÀÌ¿ëÇÑ È­Àç ¿¹¹æ½Ã½ºÅÛ</p>
+<p>IoTê¸°ë°˜ ë“œë¡ ì„ ì´ìš©í•œ í™”ì¬ ì˜ˆë°©ì‹œìŠ¤í…œ</p>
 </div>
 <!--//header -->
 <!--container -->
 <div id="container">
 <!--snb -->
 <div class="snb">
-<p>°¡½º¼¾¼­</p>
+<p>ê°€ìŠ¤ì„¼ì„œ</p>
 </div>
 <!--//snb -->
 <!--content -->
@@ -48,22 +55,22 @@ div{margin:0 0 10px;padding:10px 0;color:#2d2c2d;font-family:Tahoma;font-size:14
 <script type="text/javascript">
     function printTime() {
         var clock = document.getElementById("clock");
-        //id°ªÀÎ <span>ÅÂ±×¸¦ º¯¼öclock¿¡ ÀúÀå
+        //idê°’ì¸ <span>íƒœê·¸ë¥¼ ë³€ìˆ˜clockì— ì €ì¥
         var now = new Date(); 
-        //°´Ã¼ »ı¼º
+        //ê°ì²´ ìƒì„±
         
         clock.innerHTML = 
-            //ÅÂ±×³»ºÎ¿¡ ÅÂ±× ¼³Á¤
-        now.getFullYear() + "³â " + 
-        (now.getMonth() + 1) + "¿ù " +
-        now.getDate() + "ÀÏ " + 
-        now.getHours() + "½Ã " + 
-        now.getMinutes() + "ºĞ " + 
-        now.getSeconds() + "ÃÊ";
+            //íƒœê·¸ë‚´ë¶€ì— íƒœê·¸ ì„¤ì •
+        now.getFullYear() + "ë…„ " + 
+        (now.getMonth() + 1) + "ì›” " +
+        now.getDate() + "ì¼ " + 
+        now.getHours() + "ì‹œ " + 
+        now.getMinutes() + "ë¶„ " + 
+        now.getSeconds() + "ì´ˆ";
         setTimeout("printTime()", 1000); 
-        //1ÃÊ¸¶´Ù printTime()ÇÔ¼ö È£Ãâ
+        //1ì´ˆë§ˆë‹¤ printTime()í•¨ìˆ˜ í˜¸ì¶œ
     }
-    window.onload = function() { //html ·Îµù½Ã Äİ¹éÇÔ¼ö È£Ãâ
+    window.onload = function() { //html ë¡œë”©ì‹œ ì½œë°±í•¨ìˆ˜ í˜¸ì¶œ
         printTime();
     }
 </script>
@@ -72,20 +79,20 @@ div{margin:0 0 10px;padding:10px 0;color:#2d2c2d;font-family:Tahoma;font-size:14
 </body>
 
 </div>
-<!?//content ?>
-<!?aside ?>
+<!â€”//content â€”>
+<!â€”aside â€”>
 <div class="aside">
-<p>Å¸ÀÓ¶óÀÎ</p>
+<p>íƒ€ì„ë¼ì¸</p>
 </div>
-<!?//aside ?>
+<!â€”//aside â€”>
 </div>
-<!?//container ?>
-<!?footer ?>
+<!â€”//container â€”>
+<!â€”footer â€”>
 <div id="footer">
 	<center>
 <p>dr.one.421421@gmail.com</p>
 </center>
 </div>
-<!?//footer ?>
+<!â€”//footer â€”>
 </div>
-<!?//ui object ?>
+<!â€”//ui object â€”>
